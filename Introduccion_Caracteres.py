@@ -104,3 +104,35 @@ if numero1 > numero2:
         print(numero3 + " " + numero1 + " " + numero2)
 elif(numero)
 """
+
+"""
+dia = int(input("Dime el día: "))
+mes = int(input("Dime un mes: "))
+year = int(input("Dime el año: "))
+if dia >  0 and dia < 31 :
+    if mes > 0 and mes < 12: 
+        if year > 0 and year < 2025: 
+            print("La fecha es correcta!")
+else: 
+    print("La fecha es incorrecta!")
+"""
+
+"""
+nombre = input("Dime tu nombre: ")
+while nombre != "Pablo": 
+    print("El nombre es incorrecto, vuelve a intentarlo!")
+    nombre = input("Dime tu nombre: ")
+    if nombre == "Pablo": 
+        print("Nombre correcto!")
+        break; 
+"""
+
+
+
+cont = 0 
+while cont < 10: 
+    cont+=1
+    if cont % 2 == 1: 
+        continue
+    print(cont)
+
