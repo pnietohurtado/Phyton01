@@ -159,3 +159,27 @@ for var in range(1,6):
         break
 print("El indicador se ha vuelto true!")
 """
+
+"""
+resultado = 1
+num = int(input("Dime un número: "))
+contador = 2 
+while contador <= num: 
+    resultado = resultado * contador
+    contador += 1
+print("El resultado es ", resultado)
+"""
+"""
+cont = 0
+suma = 0
+num = int(input("Dime un número: "))
+while num != 0: 
+    suma += num
+    cont +=1
+    num = int(input("Dime otro número: "))
+media = suma / cont 
+print("La media es de ", media, " y la suma es de ", suma )
+"""
+
+
+
