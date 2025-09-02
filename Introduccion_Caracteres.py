@@ -128,11 +128,34 @@ while nombre != "Pablo":
 """
 
 
-
+"""
 cont = 0 
 while cont < 10: 
     cont+=1
     if cont % 2 == 1: 
         continue
     print(cont)
+"""
 
+"""
+for var in range(0,10,+1): 
+    print(var, " ", end="") # Con ',end=""', lo que hacemos es que todo se imprima en una única línea 
+"""
+"""
+cont = 0
+for var in range (1,6): # 5 veces va a ejecutarse 
+    num = int(input("Dime un número: "))
+    if num % 2 == 0: 
+        cont += 1
+print("Has introducido un total de ",cont, " números pares")
+
+"""
+"""
+indicador = False 
+for var in range(1,6): 
+    num = int(input("Dime un numero: "))
+    if num % 2 == 0: 
+        indicador = True
+        break
+print("El indicador se ha vuelto true!")
+"""
