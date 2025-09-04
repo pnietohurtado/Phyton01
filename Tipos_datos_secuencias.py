@@ -72,3 +72,14 @@ lista = lista2[:]
 lista.append(13)
 print(lista , " " , lista2) # De esta forma ya no comparten el mismo cursor de los datos
 """
+
+"""
+lista = [1,2,3,4,5,6]
+lista.pop(1)
+lista.remove(3) #Elimina todos los "3"
+lista.reverse()
+lista.sort(reverse=True)
+print(lista)
+"""
+
+
