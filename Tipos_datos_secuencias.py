@@ -41,3 +41,34 @@ while posicion != -1:
 print ("La frase tiene ", cont + 1, " palabras")
 """
 
+"""
+lista = [1,2,3,4,5,6]
+lista2 = ["a","b","c","d","e","f"]
+for num, letra in zip(lista,lista2): 
+    print(num, " " , letra)
+print("Lista numérica invertida -> ", lista[::-1])
+"""
+
+"""
+lista = [1,2,3,4,5,6]
+lista[0] = 100
+for i in lista: 
+    print(lista)
+lista.append(17)
+print("Nueva lista ", lista )
+"""
+
+"""
+lista = [1,2,3,4,5]
+lista2 = [1,55,6,33,22]
+lista = lista2
+lista.append(13)
+print(lista , " " , lista2) # Son en esencia la misma lista ya que ahora es como si compartieran mismo punto de referencia o cursor
+
+
+lista = [1,2,3,4,5]
+lista2 = [1,55,6,33,22]
+lista = lista2[:]
+lista.append(13)
+print(lista , " " , lista2) # De esta forma ya no comparten el mismo cursor de los datos
+"""
