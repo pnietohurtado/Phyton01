@@ -82,4 +82,26 @@ lista.sort(reverse=True)
 print(lista)
 """
 
+"""
+import random 
+lista = []
+for indice in range(1,11): 
+    lista.append(random.randint(1,10))
+for indice in lista: 
+    print(lista[indice])
+"""
+
+
+
+
+notas = []
+suma = 0
+for indice in range(1,6): 
+    nota = int(input("Dime la primera nota: "))
+    if nota > 0 and nota < 10: 
+        notas.append(nota)
+        suma += nota 
+    else : 
+        print("Esa nota no es válida!")
+media = suma / 5
 
