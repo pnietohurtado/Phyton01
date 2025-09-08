@@ -93,7 +93,7 @@ for indice in lista:
 
 
 
-
+"""
 notas = []
 suma = 0
 for indice in range(1,6): 
@@ -104,4 +104,22 @@ for indice in range(1,6):
     else : 
         print("Esa nota no es válida!")
 media = suma / 5
+"""
+
+
+"""
+nombres = []
+edades = []
+while True: 
+    nombre = input("Dime el nombre de un alumno: ")
+    if nombre != "*": 
+        nombres.append(nombre)
+        edades.append(int(input("Dime la edad: ")))
+    if nombre == "*": break; 
+edad_max = max(edades)
+print ("Alumnos mayores de edad")
+for nombre, edad in zip(nombres, edades ): 
+    if edad >= 18: 
+        print(nombre)
+"""
 
