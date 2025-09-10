@@ -26,6 +26,10 @@ class Punto():
         print("Cambio de la y! ")
         self.__y= y
 
+    
+    def mostrar(self): 
+        return 3
+
 
 class Punto3D(Punto): 
     def __init__(self, x=0, y=0, z = 0):
