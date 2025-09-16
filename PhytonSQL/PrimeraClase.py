@@ -25,7 +25,11 @@ print("Conjunto: ", frutas )
 
 """
 
+"""
 # Importar los datos 
+import sys
+print(sys.executable)
+
 
 try: 
     import pandas as pd
@@ -43,5 +47,20 @@ df = pd.read_csv("clientes.csv", sep=";")
 
 print("Columna Nombre: ", df["Nombre"]) #Para poder acceder a los datos de la columna nombre 
 print("Primera fila: ", df.iloc[0]) #Para acceder a una fila específica 
+"""
 
+"""
+import pandas as pd 
+data = {
+    "Nombre" : ["Pablo", "Luis", "Carlos"],
+    "Edad" : [23, 22, 21]
+}
 
+df = pd.DataFrame(data)
+print(df)
+
+print("======================")
+
+df1 = pd.read_csv("Clientes.csv", sep=";")
+print(df1)
+"""
