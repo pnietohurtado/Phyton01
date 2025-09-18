@@ -21,6 +21,11 @@ cursor.execute("""
 """)
 conexion.commit() 
 
+cursor.execute(
+    """DELETE FROM empleados WHERE nombre = ?""", ("Pablo",)
+)
+conexion.commit() 
+
 cursor.execute("""
     SELECT * FROM empleados
 """)
