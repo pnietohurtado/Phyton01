@@ -4,3 +4,9 @@ naranjas = pd.Series([4,9,2,6,10,200]) #De este modo tenemos un array que vamos 
 manzanas = pd.Series([600,20,30,4,5,6])
 
 print(naranjas)
+
+
+df = pd.DataFrame({"nombre" : ["Pablo", "Juan", "Pepe"], 
+                   "edad" : [58,69,25]})
+
+print(df) 
