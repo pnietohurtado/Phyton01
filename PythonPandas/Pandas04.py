@@ -27,4 +27,5 @@ print(clase.count() )
 print("---------")
 print(df.head()) 
 edad_nonula = df[df["Edad"].notna()]
+edad_nula = df[df["Edad"].isna()]
 print(edad_nonula.head())
