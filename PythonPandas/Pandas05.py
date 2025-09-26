@@ -1,5 +1,5 @@
 import pandas as pd 
-import matplotlib as mp
+import matplotlib.pyplot as mp
 import seaborn as sb 
 
 df = pd.read_csv("copia_titanic.csv", index_col = 0)
@@ -22,4 +22,17 @@ print(ap.head())
 print(ap.describe())
 print(ap.info())
 
-print(ap.resample("d").mean()) 
+print(ap.resample("d").mean().head()) 
+print(ap.resample("m").mean().head()) 
+
+print(ap.plot())
+print(ap["station_1"].plot())
+mp.show()
+
+mp.scatter(ap["station_3"], ap["station_2"]) 
+mp.show()
+
+
+ap.plot.box() 
+mp.show() 
+
